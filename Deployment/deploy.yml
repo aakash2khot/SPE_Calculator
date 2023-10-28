@@ -1,6 +1,6 @@
 ---
 - name: Pull Docker Image of Calculator
-  hosts: localhost
+  hosts: all
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
@@ -14,4 +14,3 @@
         state: started
     - name: Running container
       shell: docker run -it -d --name Calculator ashkt/calculator
-      

@@ -9,4 +9,4 @@
         name: ashkt/calculator:latest
         source: pull
     - name: Running container
-      shell: /usr/local/bin/docker run -it -d --name Calculator ashkt/calculator
+      shell: /usr/local/bin/docker create -it -d --name Calculator ashkt/calculator

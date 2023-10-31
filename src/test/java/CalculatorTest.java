@@ -35,8 +35,8 @@ public class CalculatorTest {
     }@Test
     public void test_mul_positive(){
         int a = 1;
-        int b = 2;
-        int expectedResult = 2;
+        int b = 3;
+        int expectedResult = 3;
         Assert.assertEquals(expectedResult, Main.mul(a,
                 b));
     }

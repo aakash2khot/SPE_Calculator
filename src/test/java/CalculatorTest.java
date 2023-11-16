@@ -4,9 +4,9 @@ import org.junit.Test;
 public class CalculatorTest {
     @Test
     public void test_add_positive(){
-        int a = 2;
+        int a = 3;
         int b = 4;
-        int expectedResult = 6;
+        int expectedResult = 7;
         Assert.assertEquals(expectedResult, Main.add(a,b));
     }
     @Test

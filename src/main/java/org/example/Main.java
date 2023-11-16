@@ -20,8 +20,8 @@ public class Main {
             System.out.println("4. Division");
             System.out.println("5. Exit from calculator");
 
-            int choice = myObj.nextInt();
-            choice =1;
+//            int choice = myObj.nextInt();
+            int choice =1;
 
             if(choice==5)
             {

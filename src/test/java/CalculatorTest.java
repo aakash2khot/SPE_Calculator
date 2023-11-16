@@ -11,7 +11,7 @@ public class CalculatorTest {
     }
     @Test
     public void test_add_negative(){
-        int a = 5;
+        int a = 6;
         int b = 2;
         int expectedResult = 0;
         Assert.assertNotEquals(expectedResult, Main.add(a,b));

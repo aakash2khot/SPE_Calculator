@@ -5,8 +5,8 @@ public class CalculatorTest {
     @Test
     public void test_add_positive(){
         int a = 2;
-        int b = 3;
-        int expectedResult = 5;
+        int b = 4;
+        int expectedResult = 6;
         Assert.assertEquals(expectedResult, Main.add(a,b));
     }
     @Test
